@@ -1,7 +1,7 @@
 {
   "name": "aks_cv",
   "version": "0.1.0",
-  "homepage": "http://tsotetsi.github.io/Portfolio-1",
+  "homepage": "http://akoliwemtukuse.github.io/Portfolio-1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
