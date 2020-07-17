@@ -7,13 +7,17 @@ const Foot = () => {
       <div className="container">
         <div className="row">
           <div className="col l6 s12">
-            <h5 className="white-text">Akoliwe Mtukuse's Portfolio</h5>
+            <h3 className="white-text">Akholiwe Mtukuse's Portfolio</h3>
             <a className="grey-text " href="#!">
               https://github.com/AkoliweMtukuse/
             </a>
             <br></br>
             <a className="grey-text " href="mailto:akoliwemtukuse@gmail.com">
               akoliwemtukuse@gmail.com
+            </a>
+            <br></br>
+            <a className="grey-text " href="mailto:0614747204">
+              Cell No: 0614747204
             </a>
           </div>
         </div>
@@ -22,7 +26,11 @@ const Foot = () => {
         <div className="container">
           © 2020 Copyright
           <a className="grey-text text-lighten-4 right" href="#!">
-            Made by AKOLIWE MTUKUSE
+            <span>Made with</span>
+            <i className="small material-icons" id="font_download">
+              favorite
+            </i>
+            <span> by AK</span>
           </a>
         </div>
       </div>

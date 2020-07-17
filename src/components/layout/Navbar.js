@@ -15,7 +15,7 @@ const NavB = () => {
             <i className="material-icons" id="funtions">
               functions
             </i>
-            Akoliwe
+            Akholiwe Mtukuse
           </a>
           <ul className="right hide-on-med-and-down">
             <li>
