@@ -18,7 +18,7 @@ class ParallaxItem extends Component {
       <Fragment>
         <div className="parallax-container">
           <div className="parallax-container">
-            <img src={Pic1} alt="pic1" />
+            <img src={Pic1} alt="pic1" id="img" />
           </div>
         </div>
         <div id="about" className="section white">
@@ -54,7 +54,7 @@ class ParallaxItem extends Component {
         </div>
         <div className="parallax-container">
           <div className="parallax">
-            <img src={Pic2} alt="pic1" />
+            <img src={Pic2} alt="pic1" id="img" />
           </div>
         </div>
         <div id="skill" className="section white">
@@ -86,7 +86,7 @@ class ParallaxItem extends Component {
         </div>
         <div className="parallax-container">
           <div className="parallax">
-            <img src={Pic4} alt="pic1" />
+            <img src={Pic4} alt="pic1" id="img" />
           </div>
         </div>
         <div id="work" className="section white">
@@ -149,7 +149,7 @@ class ParallaxItem extends Component {
         </div>
         <div className="parallax-container">
           <div className="parallax">
-            <img src={Pic5} alt="pic1" />
+            <img src={Pic5} alt="pic1" id="img" />
           </div>
         </div>
         <div id="contact" className="section white">
@@ -238,7 +238,7 @@ class ParallaxItem extends Component {
         </div>
         <div className="parallax-container">
           <div className="parallax">
-            <img src={Pic3} alt="pic1" />
+            <img src={Pic3} alt="pic1" id="img" />
           </div>
         </div>
       </Fragment>

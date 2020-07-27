@@ -1,20 +1,30 @@
 h1 {
   font-family: "Modak", cursive;
   text-align: center;
+  line-height: 10px;
 }
 h2 {
   font-family: "Ultra", serif;
+  line-height: 10px;
+  font-size: 50px;
+
   /* font-family: "Knewave", cursive; */
+}
+body {
+  height: 50%;
 }
 h3 {
   font-family: "Yellowtail", cursive;
   text-align: center;
 }
-
+img {
+  height: 100%;
+}
 p {
   font-family: "Inconsolata", monospace;
   font-size: 30px;
 }
+
 #btn1 {
   left: 35%;
   margin-top: 14%;
@@ -26,4 +36,101 @@ p {
   width: 100px;
   height: 100px;
   margin: 30px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  height: 1005;
+  display: flexbox;
+  overflow: visible;
+  overflow-wrap: normal;
+}
+
+body {
+  height: 100% fit-content;
+}
+
+@media only screen and (min-width: 370px) and (max-width: 677px) {
+  .row {
+    justify-content: start;
+    align-items: center;
+    width: auto;
+    height: 30% !important;
+    display: flex;
+  }
+  .section {
+    height: fit-content;
+  }
+  .parallax-container {
+    height: 70%;
+    display: flexbox;
+  }
+
+  .parallax {
+    width: 100%;
+    height: 50%;
+  }
+  #skill,
+  #about,
+  #work,
+  #contact {
+    width: unset;
+    height: 100%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  #skills_pics {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 688px) and (max-width: 899px) {
+  .row {
+    justify-content: start;
+    align-items: center;
+    width: auto;
+    height: 50% !important;
+    display: flex;
+  }
+  .section {
+    height: fit-content;
+  }
+  .parallax-container {
+    height: 70%;
+    display: flexbox;
+  }
+
+  .parallax {
+    width: 100%;
+    height: 50%;
+  }
+  #skill,
+  #about,
+  #work,
+  #contact {
+    width: unset;
+    height: 100%;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+  #skills_pics {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+  }
 }

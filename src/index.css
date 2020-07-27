@@ -1,0 +1,10 @@
+@media (min-device-width: 340px) {
+  img[data-src-700px] {
+    content: attr(data-src-auto, url);
+  }
+}
+@media (max-device-width: 340px) {
+  img[data-src-700px] {
+    content: attr(data-src-100px, url);
+  }
+}
